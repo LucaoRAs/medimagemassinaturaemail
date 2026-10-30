@@ -1,0 +1,97 @@
+{
+    "checkedAt":  "2026-10-30T15:32:25.6081995Z",
+    "mode":  "GET publico, sem autenticacao e sem envio de mensagens",
+    "results":  [
+                    {
+                        "name":  "Site institucional",
+                        "url":  "https://www.medimagem.med.br/",
+                        "status":  200,
+                        "contentType":  "text/html",
+                        "bytes":  52196,
+                        "finalUrl":  "https://www.medimagem.med.br/"
+                    },
+                    {
+                        "name":  "Contato oficial",
+                        "url":  "https://www.medimagem.med.br/faleConosco.html",
+                        "status":  200,
+                        "contentType":  "text/html",
+                        "bytes":  15478,
+                        "finalUrl":  "https://www.medimagem.med.br/faleConosco.html"
+                    },
+                    {
+                        "name":  "Resultados de exames",
+                        "url":  "https://www.medimagem.med.br/index.html#destino",
+                        "status":  200,
+                        "contentType":  "text/html",
+                        "bytes":  52196,
+                        "finalUrl":  "https://www.medimagem.med.br/index.html#destino",
+                        "anchorFound":  true
+                    },
+                    {
+                        "name":  "WhatsApp de agendamento",
+                        "url":  "https://wa.me/5535997226479",
+                        "status":  200,
+                        "contentType":  "text/html; charset=\"utf-8\"",
+                        "bytes":  228979,
+                        "finalUrl":  "https://api.whatsapp.com/send/?phone=5535997226479\u0026text\u0026type=phone_number\u0026app_absent=0"
+                    },
+                    {
+                        "name":  "WhatsApp da ouvidoria",
+                        "url":  "https://wa.me/5535999212077",
+                        "status":  200,
+                        "contentType":  "text/html; charset=\"utf-8\"",
+                        "bytes":  229018,
+                        "finalUrl":  "https://api.whatsapp.com/send/?phone=5535999212077\u0026text\u0026type=phone_number\u0026app_absent=0"
+                    },
+                    {
+                        "name":  "PNG vertical oficial em alta resolucao",
+                        "url":  "https://raw.githubusercontent.com/LucaoRAs/medimagemsite/e3330f25fc2a6675137cfe0d1168bd6c95c30317/img/icone.png",
+                        "status":  200,
+                        "contentType":  "image/png",
+                        "bytes":  82843,
+                        "finalUrl":  "https://raw.githubusercontent.com/LucaoRAs/medimagemsite/e3330f25fc2a6675137cfe0d1168bd6c95c30317/img/icone.png",
+                        "sha256":  "b73e9039570c15e7ccd5f004a16e30ee62964368377ff77b2e2838155c3cb04e",
+                        "matchesLocal":  true
+                    },
+                    {
+                        "name":  "Icone e-mail",
+                        "url":  "https://cdn.jsdelivr.net/npm/material-design-icons@3.0.1/communication/2x_web/ic_email_white_24dp.png",
+                        "status":  200,
+                        "contentType":  "image/png",
+                        "bytes":  327,
+                        "finalUrl":  "https://cdn.jsdelivr.net/npm/material-design-icons@3.0.1/communication/2x_web/ic_email_white_24dp.png",
+                        "sha256":  "eadbc15016306b22b09aedf9b8fbf5ffd0d03cc95915a2bcba79c9960c6aa0c5",
+                        "matchesLocal":  true
+                    },
+                    {
+                        "name":  "Icone telefone",
+                        "url":  "https://cdn.jsdelivr.net/npm/material-design-icons@3.0.1/communication/2x_web/ic_call_white_24dp.png",
+                        "status":  200,
+                        "contentType":  "image/png",
+                        "bytes":  420,
+                        "finalUrl":  "https://cdn.jsdelivr.net/npm/material-design-icons@3.0.1/communication/2x_web/ic_call_white_24dp.png",
+                        "sha256":  "5182bdc2dcac97ecdcc1f443e901a5027033e8f6a1a4ae58da38b3419d95da33",
+                        "matchesLocal":  true
+                    },
+                    {
+                        "name":  "Icone agendamento",
+                        "url":  "https://cdn.jsdelivr.net/npm/material-design-icons@3.0.1/communication/2x_web/ic_chat_white_24dp.png",
+                        "status":  200,
+                        "contentType":  "image/png",
+                        "bytes":  205,
+                        "finalUrl":  "https://cdn.jsdelivr.net/npm/material-design-icons@3.0.1/communication/2x_web/ic_chat_white_24dp.png",
+                        "sha256":  "ccc42b92ca8d1bdd96ad9be479f5bb3d779179bdc773985a60f2df5361732ec4",
+                        "matchesLocal":  true
+                    },
+                    {
+                        "name":  "Icone site",
+                        "url":  "https://cdn.jsdelivr.net/npm/material-design-icons@3.0.1/action/2x_web/ic_language_white_24dp.png",
+                        "status":  200,
+                        "contentType":  "image/png",
+                        "bytes":  812,
+                        "finalUrl":  "https://cdn.jsdelivr.net/npm/material-design-icons@3.0.1/action/2x_web/ic_language_white_24dp.png",
+                        "sha256":  "d047463eda7a9601693abd4e2b768cebb4588b553710c6888f8ec9a3248baf40",
+                        "matchesLocal":  true
+                    }
+                ]
+}

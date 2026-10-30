@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#881c56">
+  <meta name="description" content="Painel local de assinaturas institucionais de e-mail da Med&Imagem.">
+  <title>Assinaturas institucionais | Med&Imagem</title>
+  <link rel="stylesheet" href="assets/brand.css">
+  <link rel="stylesheet" href="assets/panel.css">
+  <script src="config/institution.js" defer></script>
+  <script src="config/departments.js" defer></script>
+  <script src="templates/signature.js" defer></script>
+  <script src="scripts/panel.js" defer></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Pular para o conteúdo</a>
+  <header class="header">
+    <div class="header-inner">
+      <a class="brand" data-company-link href="https://www.medimagem.med.br/" target="_blank" rel="noopener noreferrer"><img id="brand-logo" src="assets/logo-medimagem.png" width="228" height="48" alt="Med&Imagem — Centro de Diagnóstico Médico"></a>
+      <span class="header-divider" aria-hidden="true"></span>
+      <span class="header-title">Central de assinaturas<span>Comunicação institucional</span></span>
+      <a class="site-link" data-company-link href="https://www.medimagem.med.br/" target="_blank" rel="noopener noreferrer">Visitar o site <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main" tabindex="-1" class="container">
+    <div class="page-heading">
+      <div><p class="eyebrow">MED&amp;IMAGEM · E-MAIL CORPORATIVO</p><h1>Uma identidade em cada mensagem.</h1><p class="intro">Escolha seu departamento e leve o cuidado da nossa marca para seus e-mails.</p></div>
+      <a class="help-link" href="#installation">Como instalar <span aria-hidden="true">↓</span></a>
+    </div>
+    <noscript><p class="notice">Ative o JavaScript para usar o painel. Você também pode abrir os arquivos da pasta <strong>assinaturas/</strong> e copiar seu conteúdo renderizado manualmente.</p></noscript>
+    <div class="workspace">
+      <aside class="departments" aria-labelledby="departments-title">
+        <div class="section-heading"><h2 id="departments-title">Departamentos</h2><span class="count">13</span></div>
+        <p class="aside-caption">Selecione sua assinatura</p>
+        <label class="mobile-label" for="department-select">Departamento</label>
+        <select id="department-select" aria-label="Selecionar departamento"></select>
+        <nav id="department-list" aria-label="Assinaturas por departamento"></nav>
+        <div class="aside-note"><span class="note-mark" aria-hidden="true">i</span><p>Um padrão para toda a equipe.<br>O e-mail muda com o departamento.</p></div>
+      </aside>
+      <div class="content-column">
+        <section class="preview-panel" aria-labelledby="preview-title">
+          <div class="preview-heading"><div><p class="eyebrow">SUA ASSINATURA</p><h2 id="preview-title">Agendamento</h2><p id="selected-email" class="selected-email"></p></div><span class="format-label">Padrão institucional</span></div>
+          <div class="preview-canvas">
+            <div class="mail-sheet">
+              <div class="mail-toolbar"><span class="mail-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>Prévia no e-mail</span></div>
+              <div class="mail-body"><p class="sample-message" aria-hidden="true">Atenciosamente,</p><div id="signature-preview" tabindex="0" role="region" aria-label="Prévia da assinatura. Conteúdo selecionável."></div></div>
+            </div>
+          </div>
+          <div class="preview-footer"><p id="logo-status" role="status" class="logo-status">Verificando logo e ícones…</p><span>Texto selecionável · Links clicáveis</span></div>
+          <div id="logo-warning" class="notice" hidden>Uma imagem da assinatura não carregou. Verifique sua conexão e tente novamente antes de instalar a assinatura. <button id="retry-logo" class="text-button" type="button">Verificar novamente</button></div>
+          <div class="actions"><button id="copy-signature" class="button button-primary" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V3H3v13h5"/></svg><span>Copiar assinatura</span></button><button id="download-signature" class="button button-secondary" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg>Baixar HTML</button><button id="manual-copy" class="text-button manual-link" type="button">Selecionar para copiar</button></div>
+          <p id="copy-status" class="copy-status" role="status" aria-live="polite">Copie a assinatura e cole nas configurações do Gmail.</p>
+          <div id="manual-help" class="manual-help" hidden><strong>Cópia manual</strong><p>Selecione a assinatura com o botão abaixo e pressione <kbd>Ctrl</kbd> + <kbd>C</kbd> (ou <kbd>⌘</kbd> + <kbd>C</kbd> no Mac). No celular, toque e segure sobre a assinatura, ajuste a seleção e escolha Copiar.</p><button id="select-manual" type="button" class="button button-secondary">Selecionar assinatura</button><p>Se o navegador não mantiver a formatação, baixe o HTML, abra o arquivo e copie a assinatura exibida. Evite “Copiar como texto simples”.</p></div>
+        </section>
+        <section id="installation" class="installation" aria-labelledby="install-title">
+          <div class="install-heading"><h2 id="install-title">Pronta para o seu Gmail</h2><span>Instale em poucos passos</span></div>
+          <ol class="steps"><li><span class="step-number">01</span><div><h3>Escolha e copie</h3><p>Selecione seu departamento e clique em <strong>Copiar assinatura</strong>.</p></div></li><li><span class="step-number">02</span><div><h3>Abra as configurações</h3><p>No Gmail, vá a <strong>Ver todas as configurações → Geral → Assinatura</strong>.</p></div></li><li><span class="step-number">03</span><div><h3>Cole e salve</h3><p>Crie uma assinatura, cole, defina os padrões e salve. Envie um e-mail de teste.</p></div></li></ol>
+          <p class="install-note">Use o Gmail no computador para instalar. Cole a assinatura formatada: o editor não converte código HTML bruto.</p>
+          <details><summary>Ver o passo a passo completo</summary><ol class="full-steps"><li>Abra este painel no navegador.</li><li>Selecione o departamento correspondente à sua conta.</li><li>Clique em “Copiar assinatura” ou use a seleção manual.</li><li>Acesse o Gmail no computador.</li><li>Clique na engrenagem de Configurações.</li><li>Selecione “Ver todas as configurações”.</li><li>Na aba Geral, encontre a seção “Assinatura”.</li><li>Clique em “Criar nova” e dê um nome à assinatura.</li><li>Cole o conteúdo formatado no editor.</li><li>Defina a assinatura padrão para novos e-mails e respostas, conforme necessário.</li><li>Role até o final e clique em “Salvar alterações”.</li><li>Envie um e-mail de teste e confira o logotipo, os dados e os links.</li></ol><a href="https://support.google.com/mail/answer/8395?hl=pt-BR" target="_blank" rel="noopener noreferrer">Consultar a ajuda oficial do Gmail ↗</a></details>
+        </section>
+      </div>
+    </div>
+    <footer class="footer"><span>Med&amp;Imagem <span aria-hidden="true">/</span> Central de assinaturas institucionais</span><span id="footer-slogan">Mais do que diagnosticar. Cuidar.</span></footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,2604 @@
+{
+  "checkedAt": "2026-10-30T15:31:57.851Z",
+  "browser": "Chrome headless",
+  "gmailTested": false,
+  "outlookTested": false,
+  "passed": 147,
+  "failed": 0,
+  "failures": [],
+  "checks": [
+    {
+      "name": "13 opções no seletor e 13 departamentos na lista",
+      "passed": true
+    },
+    {
+      "name": "Fonte local Quicksand carregada",
+      "passed": true
+    },
+    {
+      "name": "Logotipo vertical HTTPS carregou no navegador",
+      "passed": true
+    },
+    {
+      "name": "Quatro ícones de contato carregaram",
+      "passed": true
+    },
+    {
+      "name": "Layout 320px / agendamento",
+      "passed": true,
+      "details": {
+        "viewport": 320,
+        "document": 320,
+        "previewWidth": 242,
+        "previewScroll": 242,
+        "tableWidth": 242,
+        "email": "agendamento@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 320px / digitacao",
+      "passed": true,
+      "details": {
+        "viewport": 320,
+        "document": 320,
+        "previewWidth": 242,
+        "previewScroll": 242,
+        "tableWidth": 242,
+        "email": "digitacao@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 320px / faturamento",
+      "passed": true,
+      "details": {
+        "viewport": 320,
+        "document": 320,
+        "previewWidth": 242,
+        "previewScroll": 242,
+        "tableWidth": 242,
+        "email": "faturamento@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 320px / financeiro",
+      "passed": true,
+      "details": {
+        "viewport": 320,
+        "document": 320,
+        "previewWidth": 242,
+        "previewScroll": 242,
+        "tableWidth": 242,
+        "email": "financeiro@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 320px / gerencia",
+      "passed": true,
+      "details": {
+        "viewport": 320,
+        "document": 320,
+        "previewWidth": 242,
+        "previewScroll": 242,
+        "tableWidth": 242,
+        "email": "gerencia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 320px / laboratorio",
+      "passed": true,
+      "details": {
+        "viewport": 320,
+        "document": 320,
+        "previewWidth": 242,
+        "previewScroll": 242,
+        "tableWidth": 242,
+        "email": "laboratorio@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 320px / medicos",
+      "passed": true,
+      "details": {
+        "viewport": 320,
+        "document": 320,
+        "previewWidth": 242,
+        "previewScroll": 242,
+        "tableWidth": 242,
+        "email": "medicos@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 320px / institucional",
+      "passed": true,
+      "details": {
+        "viewport": 320,
+        "document": 320,
+        "previewWidth": 242,
+        "previewScroll": 242,
+        "tableWidth": 242,
+        "email": "medimagem@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 320px / marketing",
+      "passed": true,
+      "details": {
+        "viewport": 320,
+        "document": 320,
+        "previewWidth": 242,
+        "previewScroll": 242,
+        "tableWidth": 242,
+        "email": "mkt@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 320px / recepcao",
+      "passed": true,
+      "details": {
+        "viewport": 320,
+        "document": 320,
+        "previewWidth": 242,
+        "previewScroll": 242,
+        "tableWidth": 242,
+        "email": "recepcao@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 320px / ressonancia",
+      "passed": true,
+      "details": {
+        "viewport": 320,
+        "document": 320,
+        "previewWidth": 242,
+        "previewScroll": 242,
+        "tableWidth": 242,
+        "email": "ressonancia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 320px / ti",
+      "passed": true,
+      "details": {
+        "viewport": 320,
+        "document": 320,
+        "previewWidth": 242,
+        "previewScroll": 242,
+        "tableWidth": 242,
+        "email": "ti@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 320px / tomografia",
+      "passed": true,
+      "details": {
+        "viewport": 320,
+        "document": 320,
+        "previewWidth": 242,
+        "previewScroll": 242,
+        "tableWidth": 242,
+        "email": "tomografia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 360px / agendamento",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "document": 360,
+        "previewWidth": 282,
+        "previewScroll": 282,
+        "tableWidth": 282,
+        "email": "agendamento@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 360px / digitacao",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "document": 360,
+        "previewWidth": 282,
+        "previewScroll": 282,
+        "tableWidth": 282,
+        "email": "digitacao@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 360px / faturamento",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "document": 360,
+        "previewWidth": 282,
+        "previewScroll": 282,
+        "tableWidth": 282,
+        "email": "faturamento@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 360px / financeiro",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "document": 360,
+        "previewWidth": 282,
+        "previewScroll": 282,
+        "tableWidth": 282,
+        "email": "financeiro@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 360px / gerencia",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "document": 360,
+        "previewWidth": 282,
+        "previewScroll": 282,
+        "tableWidth": 282,
+        "email": "gerencia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 360px / laboratorio",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "document": 360,
+        "previewWidth": 282,
+        "previewScroll": 282,
+        "tableWidth": 282,
+        "email": "laboratorio@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 360px / medicos",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "document": 360,
+        "previewWidth": 282,
+        "previewScroll": 282,
+        "tableWidth": 282,
+        "email": "medicos@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 360px / institucional",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "document": 360,
+        "previewWidth": 282,
+        "previewScroll": 282,
+        "tableWidth": 282,
+        "email": "medimagem@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 360px / marketing",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "document": 360,
+        "previewWidth": 282,
+        "previewScroll": 282,
+        "tableWidth": 282,
+        "email": "mkt@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 360px / recepcao",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "document": 360,
+        "previewWidth": 282,
+        "previewScroll": 282,
+        "tableWidth": 282,
+        "email": "recepcao@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 360px / ressonancia",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "document": 360,
+        "previewWidth": 282,
+        "previewScroll": 282,
+        "tableWidth": 282,
+        "email": "ressonancia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 360px / ti",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "document": 360,
+        "previewWidth": 282,
+        "previewScroll": 282,
+        "tableWidth": 282,
+        "email": "ti@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 360px / tomografia",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "document": 360,
+        "previewWidth": 282,
+        "previewScroll": 282,
+        "tableWidth": 282,
+        "email": "tomografia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 390px / agendamento",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "document": 390,
+        "previewWidth": 312,
+        "previewScroll": 312,
+        "tableWidth": 312,
+        "email": "agendamento@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 390px / digitacao",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "document": 390,
+        "previewWidth": 312,
+        "previewScroll": 312,
+        "tableWidth": 312,
+        "email": "digitacao@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 390px / faturamento",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "document": 390,
+        "previewWidth": 312,
+        "previewScroll": 312,
+        "tableWidth": 312,
+        "email": "faturamento@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 390px / financeiro",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "document": 390,
+        "previewWidth": 312,
+        "previewScroll": 312,
+        "tableWidth": 312,
+        "email": "financeiro@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 390px / gerencia",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "document": 390,
+        "previewWidth": 312,
+        "previewScroll": 312,
+        "tableWidth": 312,
+        "email": "gerencia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 390px / laboratorio",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "document": 390,
+        "previewWidth": 312,
+        "previewScroll": 312,
+        "tableWidth": 312,
+        "email": "laboratorio@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 390px / medicos",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "document": 390,
+        "previewWidth": 312,
+        "previewScroll": 312,
+        "tableWidth": 312,
+        "email": "medicos@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 390px / institucional",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "document": 390,
+        "previewWidth": 312,
+        "previewScroll": 312,
+        "tableWidth": 312,
+        "email": "medimagem@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 390px / marketing",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "document": 390,
+        "previewWidth": 312,
+        "previewScroll": 312,
+        "tableWidth": 312,
+        "email": "mkt@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 390px / recepcao",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "document": 390,
+        "previewWidth": 312,
+        "previewScroll": 312,
+        "tableWidth": 312,
+        "email": "recepcao@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 390px / ressonancia",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "document": 390,
+        "previewWidth": 312,
+        "previewScroll": 312,
+        "tableWidth": 312,
+        "email": "ressonancia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 390px / ti",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "document": 390,
+        "previewWidth": 312,
+        "previewScroll": 312,
+        "tableWidth": 312,
+        "email": "ti@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 390px / tomografia",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "document": 390,
+        "previewWidth": 312,
+        "previewScroll": 312,
+        "tableWidth": 312,
+        "email": "tomografia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 768px / agendamento",
+      "passed": true,
+      "details": {
+        "viewport": 768,
+        "document": 753,
+        "previewWidth": 593,
+        "previewScroll": 593,
+        "tableWidth": 593,
+        "email": "agendamento@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 768px / digitacao",
+      "passed": true,
+      "details": {
+        "viewport": 768,
+        "document": 753,
+        "previewWidth": 593,
+        "previewScroll": 593,
+        "tableWidth": 593,
+        "email": "digitacao@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 768px / faturamento",
+      "passed": true,
+      "details": {
+        "viewport": 768,
+        "document": 753,
+        "previewWidth": 593,
+        "previewScroll": 593,
+        "tableWidth": 593,
+        "email": "faturamento@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 768px / financeiro",
+      "passed": true,
+      "details": {
+        "viewport": 768,
+        "document": 753,
+        "previewWidth": 593,
+        "previewScroll": 593,
+        "tableWidth": 593,
+        "email": "financeiro@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 768px / gerencia",
+      "passed": true,
+      "details": {
+        "viewport": 768,
+        "document": 753,
+        "previewWidth": 593,
+        "previewScroll": 593,
+        "tableWidth": 593,
+        "email": "gerencia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 768px / laboratorio",
+      "passed": true,
+      "details": {
+        "viewport": 768,
+        "document": 753,
+        "previewWidth": 593,
+        "previewScroll": 593,
+        "tableWidth": 593,
+        "email": "laboratorio@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 768px / medicos",
+      "passed": true,
+      "details": {
+        "viewport": 768,
+        "document": 753,
+        "previewWidth": 593,
+        "previewScroll": 593,
+        "tableWidth": 593,
+        "email": "medicos@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 768px / institucional",
+      "passed": true,
+      "details": {
+        "viewport": 768,
+        "document": 753,
+        "previewWidth": 593,
+        "previewScroll": 593,
+        "tableWidth": 593,
+        "email": "medimagem@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 768px / marketing",
+      "passed": true,
+      "details": {
+        "viewport": 768,
+        "document": 753,
+        "previewWidth": 593,
+        "previewScroll": 593,
+        "tableWidth": 593,
+        "email": "mkt@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 768px / recepcao",
+      "passed": true,
+      "details": {
+        "viewport": 768,
+        "document": 753,
+        "previewWidth": 593,
+        "previewScroll": 593,
+        "tableWidth": 593,
+        "email": "recepcao@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 768px / ressonancia",
+      "passed": true,
+      "details": {
+        "viewport": 768,
+        "document": 753,
+        "previewWidth": 593,
+        "previewScroll": 593,
+        "tableWidth": 593,
+        "email": "ressonancia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 768px / ti",
+      "passed": true,
+      "details": {
+        "viewport": 768,
+        "document": 753,
+        "previewWidth": 593,
+        "previewScroll": 593,
+        "tableWidth": 593,
+        "email": "ti@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 768px / tomografia",
+      "passed": true,
+      "details": {
+        "viewport": 768,
+        "document": 753,
+        "previewWidth": 593,
+        "previewScroll": 593,
+        "tableWidth": 593,
+        "email": "tomografia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1024px / agendamento",
+      "passed": true,
+      "details": {
+        "viewport": 1024,
+        "document": 1009,
+        "previewWidth": 631,
+        "previewScroll": 631,
+        "tableWidth": 600,
+        "email": "agendamento@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1024px / digitacao",
+      "passed": true,
+      "details": {
+        "viewport": 1024,
+        "document": 1009,
+        "previewWidth": 631,
+        "previewScroll": 631,
+        "tableWidth": 600,
+        "email": "digitacao@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1024px / faturamento",
+      "passed": true,
+      "details": {
+        "viewport": 1024,
+        "document": 1009,
+        "previewWidth": 631,
+        "previewScroll": 631,
+        "tableWidth": 600,
+        "email": "faturamento@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1024px / financeiro",
+      "passed": true,
+      "details": {
+        "viewport": 1024,
+        "document": 1009,
+        "previewWidth": 631,
+        "previewScroll": 631,
+        "tableWidth": 600,
+        "email": "financeiro@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1024px / gerencia",
+      "passed": true,
+      "details": {
+        "viewport": 1024,
+        "document": 1009,
+        "previewWidth": 631,
+        "previewScroll": 631,
+        "tableWidth": 600,
+        "email": "gerencia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1024px / laboratorio",
+      "passed": true,
+      "details": {
+        "viewport": 1024,
+        "document": 1009,
+        "previewWidth": 631,
+        "previewScroll": 631,
+        "tableWidth": 600,
+        "email": "laboratorio@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1024px / medicos",
+      "passed": true,
+      "details": {
+        "viewport": 1024,
+        "document": 1009,
+        "previewWidth": 631,
+        "previewScroll": 631,
+        "tableWidth": 600,
+        "email": "medicos@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1024px / institucional",
+      "passed": true,
+      "details": {
+        "viewport": 1024,
+        "document": 1009,
+        "previewWidth": 631,
+        "previewScroll": 631,
+        "tableWidth": 600,
+        "email": "medimagem@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1024px / marketing",
+      "passed": true,
+      "details": {
+        "viewport": 1024,
+        "document": 1009,
+        "previewWidth": 631,
+        "previewScroll": 631,
+        "tableWidth": 600,
+        "email": "mkt@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1024px / recepcao",
+      "passed": true,
+      "details": {
+        "viewport": 1024,
+        "document": 1009,
+        "previewWidth": 631,
+        "previewScroll": 631,
+        "tableWidth": 600,
+        "email": "recepcao@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1024px / ressonancia",
+      "passed": true,
+      "details": {
+        "viewport": 1024,
+        "document": 1009,
+        "previewWidth": 631,
+        "previewScroll": 631,
+        "tableWidth": 600,
+        "email": "ressonancia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1024px / ti",
+      "passed": true,
+      "details": {
+        "viewport": 1024,
+        "document": 1009,
+        "previewWidth": 631,
+        "previewScroll": 631,
+        "tableWidth": 600,
+        "email": "ti@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1024px / tomografia",
+      "passed": true,
+      "details": {
+        "viewport": 1024,
+        "document": 1009,
+        "previewWidth": 631,
+        "previewScroll": 631,
+        "tableWidth": 600,
+        "email": "tomografia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1440px / agendamento",
+      "passed": true,
+      "details": {
+        "viewport": 1440,
+        "document": 1425,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "agendamento@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1440px / digitacao",
+      "passed": true,
+      "details": {
+        "viewport": 1440,
+        "document": 1425,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "digitacao@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1440px / faturamento",
+      "passed": true,
+      "details": {
+        "viewport": 1440,
+        "document": 1425,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "faturamento@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1440px / financeiro",
+      "passed": true,
+      "details": {
+        "viewport": 1440,
+        "document": 1425,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "financeiro@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1440px / gerencia",
+      "passed": true,
+      "details": {
+        "viewport": 1440,
+        "document": 1425,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "gerencia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1440px / laboratorio",
+      "passed": true,
+      "details": {
+        "viewport": 1440,
+        "document": 1425,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "laboratorio@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1440px / medicos",
+      "passed": true,
+      "details": {
+        "viewport": 1440,
+        "document": 1425,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "medicos@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1440px / institucional",
+      "passed": true,
+      "details": {
+        "viewport": 1440,
+        "document": 1425,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "medimagem@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1440px / marketing",
+      "passed": true,
+      "details": {
+        "viewport": 1440,
+        "document": 1425,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "mkt@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1440px / recepcao",
+      "passed": true,
+      "details": {
+        "viewport": 1440,
+        "document": 1425,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "recepcao@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1440px / ressonancia",
+      "passed": true,
+      "details": {
+        "viewport": 1440,
+        "document": 1425,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "ressonancia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1440px / ti",
+      "passed": true,
+      "details": {
+        "viewport": 1440,
+        "document": 1425,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "ti@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1440px / tomografia",
+      "passed": true,
+      "details": {
+        "viewport": 1440,
+        "document": 1425,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "tomografia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1920px / agendamento",
+      "passed": true,
+      "details": {
+        "viewport": 1920,
+        "document": 1905,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "agendamento@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1920px / digitacao",
+      "passed": true,
+      "details": {
+        "viewport": 1920,
+        "document": 1905,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "digitacao@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1920px / faturamento",
+      "passed": true,
+      "details": {
+        "viewport": 1920,
+        "document": 1905,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "faturamento@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1920px / financeiro",
+      "passed": true,
+      "details": {
+        "viewport": 1920,
+        "document": 1905,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "financeiro@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1920px / gerencia",
+      "passed": true,
+      "details": {
+        "viewport": 1920,
+        "document": 1905,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "gerencia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1920px / laboratorio",
+      "passed": true,
+      "details": {
+        "viewport": 1920,
+        "document": 1905,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "laboratorio@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1920px / medicos",
+      "passed": true,
+      "details": {
+        "viewport": 1920,
+        "document": 1905,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "medicos@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1920px / institucional",
+      "passed": true,
+      "details": {
+        "viewport": 1920,
+        "document": 1905,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "medimagem@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1920px / marketing",
+      "passed": true,
+      "details": {
+        "viewport": 1920,
+        "document": 1905,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "mkt@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1920px / recepcao",
+      "passed": true,
+      "details": {
+        "viewport": 1920,
+        "document": 1905,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "recepcao@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1920px / ressonancia",
+      "passed": true,
+      "details": {
+        "viewport": 1920,
+        "document": 1905,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "ressonancia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1920px / ti",
+      "passed": true,
+      "details": {
+        "viewport": 1920,
+        "document": 1905,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "ti@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Layout 1920px / tomografia",
+      "passed": true,
+      "details": {
+        "viewport": 1920,
+        "document": 1905,
+        "previewWidth": 666,
+        "previewScroll": 666,
+        "tableWidth": 600,
+        "email": "tomografia@medimagem.med.br",
+        "selected": 1,
+        "broken": 0
+      }
+    },
+    {
+      "name": "Link direto seleciona Tecnologia da Informação",
+      "passed": true
+    },
+    {
+      "name": "Clique na lista atualiza a conta",
+      "passed": true
+    },
+    {
+      "name": "Clipboard API escreve text/html e text/plain reais",
+      "passed": true
+    },
+    {
+      "name": "Colagem real em editor HTML preserva tabela, imagem, links e estilo",
+      "passed": true
+    },
+    {
+      "name": "Download HTML real corresponde ao arquivo gerado",
+      "passed": true
+    },
+    {
+      "name": "Permissão negada usa fallback de cópia formatada",
+      "passed": true
+    },
+    {
+      "name": "Falha de todas as APIs oferece seleção manual funcional",
+      "passed": true
+    },
+    {
+      "name": "Seleção manual exclui instruções e texto da mensagem",
+      "passed": true
+    },
+    {
+      "name": "Imagem indisponível é sinalizada sem substituição local silenciosa",
+      "passed": true
+    },
+    {
+      "name": "Reverificação restaura status de imagem carregada",
+      "passed": true
+    },
+    {
+      "name": "Painel abre diretamente por file://",
+      "passed": true
+    },
+    {
+      "name": "Seleção manual funciona também por file://",
+      "passed": true
+    },
+    {
+      "name": "HTML final 320px / agendamento",
+      "passed": true
+    },
+    {
+      "name": "HTML final 320px / digitacao",
+      "passed": true
+    },
+    {
+      "name": "HTML final 320px / faturamento",
+      "passed": true
+    },
+    {
+      "name": "HTML final 320px / financeiro",
+      "passed": true
+    },
+    {
+      "name": "HTML final 320px / gerencia",
+      "passed": true
+    },
+    {
+      "name": "HTML final 320px / laboratorio",
+      "passed": true
+    },
+    {
+      "name": "HTML final 320px / medicos",
+      "passed": true
+    },
+    {
+      "name": "HTML final 320px / institucional",
+      "passed": true
+    },
+    {
+      "name": "HTML final 320px / marketing",
+      "passed": true
+    },
+    {
+      "name": "HTML final 320px / recepcao",
+      "passed": true
+    },
+    {
+      "name": "HTML final 320px / ressonancia",
+      "passed": true
+    },
+    {
+      "name": "HTML final 320px / ti",
+      "passed": true
+    },
+    {
+      "name": "HTML final 320px / tomografia",
+      "passed": true
+    },
+    {
+      "name": "HTML final 560px / agendamento",
+      "passed": true
+    },
+    {
+      "name": "HTML final 560px / digitacao",
+      "passed": true
+    },
+    {
+      "name": "HTML final 560px / faturamento",
+      "passed": true
+    },
+    {
+      "name": "HTML final 560px / financeiro",
+      "passed": true
+    },
+    {
+      "name": "HTML final 560px / gerencia",
+      "passed": true
+    },
+    {
+      "name": "HTML final 560px / laboratorio",
+      "passed": true
+    },
+    {
+      "name": "HTML final 560px / medicos",
+      "passed": true
+    },
+    {
+      "name": "HTML final 560px / institucional",
+      "passed": true
+    },
+    {
+      "name": "HTML final 560px / marketing",
+      "passed": true
+    },
+    {
+      "name": "HTML final 560px / recepcao",
+      "passed": true
+    },
+    {
+      "name": "HTML final 560px / ressonancia",
+      "passed": true
+    },
+    {
+      "name": "HTML final 560px / ti",
+      "passed": true
+    },
+    {
+      "name": "HTML final 560px / tomografia",
+      "passed": true
+    },
+    {
+      "name": "HTML final 800px / agendamento",
+      "passed": true
+    },
+    {
+      "name": "HTML final 800px / digitacao",
+      "passed": true
+    },
+    {
+      "name": "HTML final 800px / faturamento",
+      "passed": true
+    },
+    {
+      "name": "HTML final 800px / financeiro",
+      "passed": true
+    },
+    {
+      "name": "HTML final 800px / gerencia",
+      "passed": true
+    },
+    {
+      "name": "HTML final 800px / laboratorio",
+      "passed": true
+    },
+    {
+      "name": "HTML final 800px / medicos",
+      "passed": true
+    },
+    {
+      "name": "HTML final 800px / institucional",
+      "passed": true
+    },
+    {
+      "name": "HTML final 800px / marketing",
+      "passed": true
+    },
+    {
+      "name": "HTML final 800px / recepcao",
+      "passed": true
+    },
+    {
+      "name": "HTML final 800px / ressonancia",
+      "passed": true
+    },
+    {
+      "name": "HTML final 800px / ti",
+      "passed": true
+    },
+    {
+      "name": "HTML final 800px / tomografia",
+      "passed": true
+    },
+    {
+      "name": "Sem exceções JavaScript",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "layouts": [
+    {
+      "width": 320,
+      "department": "agendamento",
+      "viewport": 320,
+      "document": 320,
+      "previewWidth": 242,
+      "previewScroll": 242,
+      "tableWidth": 242,
+      "email": "agendamento@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 320,
+      "department": "digitacao",
+      "viewport": 320,
+      "document": 320,
+      "previewWidth": 242,
+      "previewScroll": 242,
+      "tableWidth": 242,
+      "email": "digitacao@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 320,
+      "department": "faturamento",
+      "viewport": 320,
+      "document": 320,
+      "previewWidth": 242,
+      "previewScroll": 242,
+      "tableWidth": 242,
+      "email": "faturamento@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 320,
+      "department": "financeiro",
+      "viewport": 320,
+      "document": 320,
+      "previewWidth": 242,
+      "previewScroll": 242,
+      "tableWidth": 242,
+      "email": "financeiro@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 320,
+      "department": "gerencia",
+      "viewport": 320,
+      "document": 320,
+      "previewWidth": 242,
+      "previewScroll": 242,
+      "tableWidth": 242,
+      "email": "gerencia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 320,
+      "department": "laboratorio",
+      "viewport": 320,
+      "document": 320,
+      "previewWidth": 242,
+      "previewScroll": 242,
+      "tableWidth": 242,
+      "email": "laboratorio@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 320,
+      "department": "medicos",
+      "viewport": 320,
+      "document": 320,
+      "previewWidth": 242,
+      "previewScroll": 242,
+      "tableWidth": 242,
+      "email": "medicos@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 320,
+      "department": "institucional",
+      "viewport": 320,
+      "document": 320,
+      "previewWidth": 242,
+      "previewScroll": 242,
+      "tableWidth": 242,
+      "email": "medimagem@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 320,
+      "department": "marketing",
+      "viewport": 320,
+      "document": 320,
+      "previewWidth": 242,
+      "previewScroll": 242,
+      "tableWidth": 242,
+      "email": "mkt@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 320,
+      "department": "recepcao",
+      "viewport": 320,
+      "document": 320,
+      "previewWidth": 242,
+      "previewScroll": 242,
+      "tableWidth": 242,
+      "email": "recepcao@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 320,
+      "department": "ressonancia",
+      "viewport": 320,
+      "document": 320,
+      "previewWidth": 242,
+      "previewScroll": 242,
+      "tableWidth": 242,
+      "email": "ressonancia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 320,
+      "department": "ti",
+      "viewport": 320,
+      "document": 320,
+      "previewWidth": 242,
+      "previewScroll": 242,
+      "tableWidth": 242,
+      "email": "ti@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 320,
+      "department": "tomografia",
+      "viewport": 320,
+      "document": 320,
+      "previewWidth": 242,
+      "previewScroll": 242,
+      "tableWidth": 242,
+      "email": "tomografia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 360,
+      "department": "agendamento",
+      "viewport": 360,
+      "document": 360,
+      "previewWidth": 282,
+      "previewScroll": 282,
+      "tableWidth": 282,
+      "email": "agendamento@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 360,
+      "department": "digitacao",
+      "viewport": 360,
+      "document": 360,
+      "previewWidth": 282,
+      "previewScroll": 282,
+      "tableWidth": 282,
+      "email": "digitacao@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 360,
+      "department": "faturamento",
+      "viewport": 360,
+      "document": 360,
+      "previewWidth": 282,
+      "previewScroll": 282,
+      "tableWidth": 282,
+      "email": "faturamento@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 360,
+      "department": "financeiro",
+      "viewport": 360,
+      "document": 360,
+      "previewWidth": 282,
+      "previewScroll": 282,
+      "tableWidth": 282,
+      "email": "financeiro@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 360,
+      "department": "gerencia",
+      "viewport": 360,
+      "document": 360,
+      "previewWidth": 282,
+      "previewScroll": 282,
+      "tableWidth": 282,
+      "email": "gerencia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 360,
+      "department": "laboratorio",
+      "viewport": 360,
+      "document": 360,
+      "previewWidth": 282,
+      "previewScroll": 282,
+      "tableWidth": 282,
+      "email": "laboratorio@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 360,
+      "department": "medicos",
+      "viewport": 360,
+      "document": 360,
+      "previewWidth": 282,
+      "previewScroll": 282,
+      "tableWidth": 282,
+      "email": "medicos@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 360,
+      "department": "institucional",
+      "viewport": 360,
+      "document": 360,
+      "previewWidth": 282,
+      "previewScroll": 282,
+      "tableWidth": 282,
+      "email": "medimagem@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 360,
+      "department": "marketing",
+      "viewport": 360,
+      "document": 360,
+      "previewWidth": 282,
+      "previewScroll": 282,
+      "tableWidth": 282,
+      "email": "mkt@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 360,
+      "department": "recepcao",
+      "viewport": 360,
+      "document": 360,
+      "previewWidth": 282,
+      "previewScroll": 282,
+      "tableWidth": 282,
+      "email": "recepcao@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 360,
+      "department": "ressonancia",
+      "viewport": 360,
+      "document": 360,
+      "previewWidth": 282,
+      "previewScroll": 282,
+      "tableWidth": 282,
+      "email": "ressonancia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 360,
+      "department": "ti",
+      "viewport": 360,
+      "document": 360,
+      "previewWidth": 282,
+      "previewScroll": 282,
+      "tableWidth": 282,
+      "email": "ti@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 360,
+      "department": "tomografia",
+      "viewport": 360,
+      "document": 360,
+      "previewWidth": 282,
+      "previewScroll": 282,
+      "tableWidth": 282,
+      "email": "tomografia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 390,
+      "department": "agendamento",
+      "viewport": 390,
+      "document": 390,
+      "previewWidth": 312,
+      "previewScroll": 312,
+      "tableWidth": 312,
+      "email": "agendamento@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 390,
+      "department": "digitacao",
+      "viewport": 390,
+      "document": 390,
+      "previewWidth": 312,
+      "previewScroll": 312,
+      "tableWidth": 312,
+      "email": "digitacao@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 390,
+      "department": "faturamento",
+      "viewport": 390,
+      "document": 390,
+      "previewWidth": 312,
+      "previewScroll": 312,
+      "tableWidth": 312,
+      "email": "faturamento@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 390,
+      "department": "financeiro",
+      "viewport": 390,
+      "document": 390,
+      "previewWidth": 312,
+      "previewScroll": 312,
+      "tableWidth": 312,
+      "email": "financeiro@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 390,
+      "department": "gerencia",
+      "viewport": 390,
+      "document": 390,
+      "previewWidth": 312,
+      "previewScroll": 312,
+      "tableWidth": 312,
+      "email": "gerencia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 390,
+      "department": "laboratorio",
+      "viewport": 390,
+      "document": 390,
+      "previewWidth": 312,
+      "previewScroll": 312,
+      "tableWidth": 312,
+      "email": "laboratorio@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 390,
+      "department": "medicos",
+      "viewport": 390,
+      "document": 390,
+      "previewWidth": 312,
+      "previewScroll": 312,
+      "tableWidth": 312,
+      "email": "medicos@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 390,
+      "department": "institucional",
+      "viewport": 390,
+      "document": 390,
+      "previewWidth": 312,
+      "previewScroll": 312,
+      "tableWidth": 312,
+      "email": "medimagem@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 390,
+      "department": "marketing",
+      "viewport": 390,
+      "document": 390,
+      "previewWidth": 312,
+      "previewScroll": 312,
+      "tableWidth": 312,
+      "email": "mkt@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 390,
+      "department": "recepcao",
+      "viewport": 390,
+      "document": 390,
+      "previewWidth": 312,
+      "previewScroll": 312,
+      "tableWidth": 312,
+      "email": "recepcao@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 390,
+      "department": "ressonancia",
+      "viewport": 390,
+      "document": 390,
+      "previewWidth": 312,
+      "previewScroll": 312,
+      "tableWidth": 312,
+      "email": "ressonancia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 390,
+      "department": "ti",
+      "viewport": 390,
+      "document": 390,
+      "previewWidth": 312,
+      "previewScroll": 312,
+      "tableWidth": 312,
+      "email": "ti@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 390,
+      "department": "tomografia",
+      "viewport": 390,
+      "document": 390,
+      "previewWidth": 312,
+      "previewScroll": 312,
+      "tableWidth": 312,
+      "email": "tomografia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 768,
+      "department": "agendamento",
+      "viewport": 768,
+      "document": 753,
+      "previewWidth": 593,
+      "previewScroll": 593,
+      "tableWidth": 593,
+      "email": "agendamento@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 768,
+      "department": "digitacao",
+      "viewport": 768,
+      "document": 753,
+      "previewWidth": 593,
+      "previewScroll": 593,
+      "tableWidth": 593,
+      "email": "digitacao@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 768,
+      "department": "faturamento",
+      "viewport": 768,
+      "document": 753,
+      "previewWidth": 593,
+      "previewScroll": 593,
+      "tableWidth": 593,
+      "email": "faturamento@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 768,
+      "department": "financeiro",
+      "viewport": 768,
+      "document": 753,
+      "previewWidth": 593,
+      "previewScroll": 593,
+      "tableWidth": 593,
+      "email": "financeiro@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 768,
+      "department": "gerencia",
+      "viewport": 768,
+      "document": 753,
+      "previewWidth": 593,
+      "previewScroll": 593,
+      "tableWidth": 593,
+      "email": "gerencia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 768,
+      "department": "laboratorio",
+      "viewport": 768,
+      "document": 753,
+      "previewWidth": 593,
+      "previewScroll": 593,
+      "tableWidth": 593,
+      "email": "laboratorio@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 768,
+      "department": "medicos",
+      "viewport": 768,
+      "document": 753,
+      "previewWidth": 593,
+      "previewScroll": 593,
+      "tableWidth": 593,
+      "email": "medicos@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 768,
+      "department": "institucional",
+      "viewport": 768,
+      "document": 753,
+      "previewWidth": 593,
+      "previewScroll": 593,
+      "tableWidth": 593,
+      "email": "medimagem@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 768,
+      "department": "marketing",
+      "viewport": 768,
+      "document": 753,
+      "previewWidth": 593,
+      "previewScroll": 593,
+      "tableWidth": 593,
+      "email": "mkt@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 768,
+      "department": "recepcao",
+      "viewport": 768,
+      "document": 753,
+      "previewWidth": 593,
+      "previewScroll": 593,
+      "tableWidth": 593,
+      "email": "recepcao@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 768,
+      "department": "ressonancia",
+      "viewport": 768,
+      "document": 753,
+      "previewWidth": 593,
+      "previewScroll": 593,
+      "tableWidth": 593,
+      "email": "ressonancia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 768,
+      "department": "ti",
+      "viewport": 768,
+      "document": 753,
+      "previewWidth": 593,
+      "previewScroll": 593,
+      "tableWidth": 593,
+      "email": "ti@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 768,
+      "department": "tomografia",
+      "viewport": 768,
+      "document": 753,
+      "previewWidth": 593,
+      "previewScroll": 593,
+      "tableWidth": 593,
+      "email": "tomografia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1024,
+      "department": "agendamento",
+      "viewport": 1024,
+      "document": 1009,
+      "previewWidth": 631,
+      "previewScroll": 631,
+      "tableWidth": 600,
+      "email": "agendamento@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1024,
+      "department": "digitacao",
+      "viewport": 1024,
+      "document": 1009,
+      "previewWidth": 631,
+      "previewScroll": 631,
+      "tableWidth": 600,
+      "email": "digitacao@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1024,
+      "department": "faturamento",
+      "viewport": 1024,
+      "document": 1009,
+      "previewWidth": 631,
+      "previewScroll": 631,
+      "tableWidth": 600,
+      "email": "faturamento@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1024,
+      "department": "financeiro",
+      "viewport": 1024,
+      "document": 1009,
+      "previewWidth": 631,
+      "previewScroll": 631,
+      "tableWidth": 600,
+      "email": "financeiro@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1024,
+      "department": "gerencia",
+      "viewport": 1024,
+      "document": 1009,
+      "previewWidth": 631,
+      "previewScroll": 631,
+      "tableWidth": 600,
+      "email": "gerencia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1024,
+      "department": "laboratorio",
+      "viewport": 1024,
+      "document": 1009,
+      "previewWidth": 631,
+      "previewScroll": 631,
+      "tableWidth": 600,
+      "email": "laboratorio@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1024,
+      "department": "medicos",
+      "viewport": 1024,
+      "document": 1009,
+      "previewWidth": 631,
+      "previewScroll": 631,
+      "tableWidth": 600,
+      "email": "medicos@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1024,
+      "department": "institucional",
+      "viewport": 1024,
+      "document": 1009,
+      "previewWidth": 631,
+      "previewScroll": 631,
+      "tableWidth": 600,
+      "email": "medimagem@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1024,
+      "department": "marketing",
+      "viewport": 1024,
+      "document": 1009,
+      "previewWidth": 631,
+      "previewScroll": 631,
+      "tableWidth": 600,
+      "email": "mkt@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1024,
+      "department": "recepcao",
+      "viewport": 1024,
+      "document": 1009,
+      "previewWidth": 631,
+      "previewScroll": 631,
+      "tableWidth": 600,
+      "email": "recepcao@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1024,
+      "department": "ressonancia",
+      "viewport": 1024,
+      "document": 1009,
+      "previewWidth": 631,
+      "previewScroll": 631,
+      "tableWidth": 600,
+      "email": "ressonancia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1024,
+      "department": "ti",
+      "viewport": 1024,
+      "document": 1009,
+      "previewWidth": 631,
+      "previewScroll": 631,
+      "tableWidth": 600,
+      "email": "ti@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1024,
+      "department": "tomografia",
+      "viewport": 1024,
+      "document": 1009,
+      "previewWidth": 631,
+      "previewScroll": 631,
+      "tableWidth": 600,
+      "email": "tomografia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1440,
+      "department": "agendamento",
+      "viewport": 1440,
+      "document": 1425,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "agendamento@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1440,
+      "department": "digitacao",
+      "viewport": 1440,
+      "document": 1425,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "digitacao@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1440,
+      "department": "faturamento",
+      "viewport": 1440,
+      "document": 1425,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "faturamento@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1440,
+      "department": "financeiro",
+      "viewport": 1440,
+      "document": 1425,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "financeiro@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1440,
+      "department": "gerencia",
+      "viewport": 1440,
+      "document": 1425,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "gerencia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1440,
+      "department": "laboratorio",
+      "viewport": 1440,
+      "document": 1425,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "laboratorio@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1440,
+      "department": "medicos",
+      "viewport": 1440,
+      "document": 1425,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "medicos@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1440,
+      "department": "institucional",
+      "viewport": 1440,
+      "document": 1425,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "medimagem@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1440,
+      "department": "marketing",
+      "viewport": 1440,
+      "document": 1425,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "mkt@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1440,
+      "department": "recepcao",
+      "viewport": 1440,
+      "document": 1425,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "recepcao@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1440,
+      "department": "ressonancia",
+      "viewport": 1440,
+      "document": 1425,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "ressonancia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1440,
+      "department": "ti",
+      "viewport": 1440,
+      "document": 1425,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "ti@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1440,
+      "department": "tomografia",
+      "viewport": 1440,
+      "document": 1425,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "tomografia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1920,
+      "department": "agendamento",
+      "viewport": 1920,
+      "document": 1905,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "agendamento@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1920,
+      "department": "digitacao",
+      "viewport": 1920,
+      "document": 1905,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "digitacao@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1920,
+      "department": "faturamento",
+      "viewport": 1920,
+      "document": 1905,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "faturamento@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1920,
+      "department": "financeiro",
+      "viewport": 1920,
+      "document": 1905,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "financeiro@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1920,
+      "department": "gerencia",
+      "viewport": 1920,
+      "document": 1905,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "gerencia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1920,
+      "department": "laboratorio",
+      "viewport": 1920,
+      "document": 1905,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "laboratorio@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1920,
+      "department": "medicos",
+      "viewport": 1920,
+      "document": 1905,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "medicos@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1920,
+      "department": "institucional",
+      "viewport": 1920,
+      "document": 1905,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "medimagem@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1920,
+      "department": "marketing",
+      "viewport": 1920,
+      "document": 1905,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "mkt@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1920,
+      "department": "recepcao",
+      "viewport": 1920,
+      "document": 1905,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "recepcao@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1920,
+      "department": "ressonancia",
+      "viewport": 1920,
+      "document": 1905,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "ressonancia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1920,
+      "department": "ti",
+      "viewport": 1920,
+      "document": 1905,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "ti@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    },
+    {
+      "width": 1920,
+      "department": "tomografia",
+      "viewport": 1920,
+      "document": 1905,
+      "previewWidth": 666,
+      "previewScroll": 666,
+      "tableWidth": 600,
+      "email": "tomografia@medimagem.med.br",
+      "selected": 1,
+      "broken": 0
+    }
+  ]
+}

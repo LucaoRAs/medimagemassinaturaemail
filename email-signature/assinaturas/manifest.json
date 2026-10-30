@@ -1,0 +1,93 @@
+[
+  {
+    "department": "Agendamento",
+    "email": "agendamento@medimagem.med.br",
+    "file": "assinatura-agendamento.html",
+    "characters": 6133,
+    "bytes": 6150
+  },
+  {
+    "department": "Digitação",
+    "email": "digitacao@medimagem.med.br",
+    "file": "assinatura-digitacao.html",
+    "characters": 5910,
+    "bytes": 5929
+  },
+  {
+    "department": "Faturamento",
+    "email": "faturamento@medimagem.med.br",
+    "file": "assinatura-faturamento.html",
+    "characters": 5918,
+    "bytes": 5933
+  },
+  {
+    "department": "Financeiro",
+    "email": "financeiro@medimagem.med.br",
+    "file": "assinatura-financeiro.html",
+    "characters": 5914,
+    "bytes": 5929
+  },
+  {
+    "department": "Gerência",
+    "email": "gerencia@medimagem.med.br",
+    "file": "assinatura-gerencia.html",
+    "characters": 5906,
+    "bytes": 5923
+  },
+  {
+    "department": "Laboratório",
+    "email": "laboratorio@medimagem.med.br",
+    "file": "assinatura-laboratorio.html",
+    "characters": 6133,
+    "bytes": 6152
+  },
+  {
+    "department": "Corpo Médico",
+    "email": "medicos@medimagem.med.br",
+    "file": "assinatura-medicos.html",
+    "characters": 6127,
+    "bytes": 6146
+  },
+  {
+    "department": "Institucional",
+    "email": "medimagem@medimagem.med.br",
+    "file": "assinatura-institucional.html",
+    "characters": 5918,
+    "bytes": 5933
+  },
+  {
+    "department": "Marketing",
+    "email": "mkt@medimagem.med.br",
+    "file": "assinatura-marketing.html",
+    "characters": 5898,
+    "bytes": 5913
+  },
+  {
+    "department": "Recepção",
+    "email": "recepcao@medimagem.med.br",
+    "file": "assinatura-recepcao.html",
+    "characters": 6121,
+    "bytes": 6142
+  },
+  {
+    "department": "Ressonância Magnética",
+    "email": "ressonancia@medimagem.med.br",
+    "file": "assinatura-ressonancia.html",
+    "characters": 6153,
+    "bytes": 6174
+  },
+  {
+    "department": "Tecnologia da Informação",
+    "email": "ti@medimagem.med.br",
+    "file": "assinatura-ti.html",
+    "characters": 5926,
+    "bytes": 5945
+  },
+  {
+    "department": "Tomografia",
+    "email": "tomografia@medimagem.med.br",
+    "file": "assinatura-tomografia.html",
+    "characters": 6129,
+    "bytes": 6146
+  }
+]
