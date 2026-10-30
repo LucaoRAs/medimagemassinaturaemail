@@ -9,21 +9,35 @@ const company = require('../config/institution.js');
 const departments = require('../config/departments.js');
 const template = require('../templates/signature.js');
 const root = path.resolve(__dirname, '..');
+const repository = path.resolve(root, '..');
+const basePath = '/medimagemassinaturaemail/';
 const qa = path.join(root, '.qa');
 const previews = path.join(root, 'docs', 'previews');
 fs.mkdirSync(path.join(qa, 'downloads'), { recursive: true });
 fs.mkdirSync(previews, { recursive: true });
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 const checks = [], layouts = [], errors = [];
+const missingResources = [];
 function check(name, passed, details) { checks.push({ name, passed: Boolean(passed), ...(details === undefined ? {} : { details }) }); }
 const server = http.createServer((req, res) => {
-  let target;
-  try { target = path.resolve(root, '.' + decodeURIComponent(new URL(req.url, 'http://localhost').pathname)); } catch (_) { res.writeHead(400).end(); return; }
-  if (!target.startsWith(root + path.sep) && target !== root) { res.writeHead(403).end(); return; }
-  if (target === root || fs.existsSync(target) && fs.statSync(target).isDirectory()) target = path.join(target, 'index.html');
+  const missing = () => {
+    if (!['/favicon.ico', basePath + 'missing-logo.png'].includes(req.url)) missingResources.push(req.url);
+    res.writeHead(404).end();
+  };
+  let pathname;
+  try { pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname); } catch (_) { res.writeHead(400).end(); return; }
+  if (!pathname.startsWith(basePath)) { missing(); return; }
+  const segments = pathname.slice(basePath.length).split('/').filter(Boolean);
+  let target = repository;
+  // Match GitHub Pages' case-sensitive paths, including on Windows.
+  for (const segment of segments) {
+    if (segment.startsWith('.') || segment.includes('\\') || !fs.statSync(target).isDirectory() || !fs.readdirSync(target).includes(segment)) { missing(); return; }
+    target = path.join(target, segment);
+  }
+  if (fs.statSync(target).isDirectory()) target = path.join(target, 'index.html');
   const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.png': 'image/png', '.woff2': 'font/woff2' };
   fs.readFile(target, (error, content) => {
-    if (error) { res.writeHead(404).end(); return; }
+    if (error) { missing(); return; }
     res.writeHead(200, { 'Content-Type': types[path.extname(target)] || 'application/octet-stream' }); res.end(content);
   });
 });
@@ -33,6 +47,14 @@ const server = http.createServer((req, res) => {
   try {
     await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
     const origin = `http://127.0.0.1:${server.address().port}`;
+    const siteUrl = origin + basePath;
+    const panelUrl = siteUrl + 'email-signature/index.html';
+    check('Publicação estática possui .nojekyll na raiz', fs.existsSync(path.join(repository, '.nojekyll')));
+    check('Entrada da raiz responde HTTP 200 sob o caminho base', (await fetch(siteUrl)).status === 200);
+    const localAssets = [company.panelLogo.local, company.logo.local, ...Object.values(company.icons).map(icon => icon.local)];
+    for (const asset of localAssets) {
+      check(`Recurso local publicado: ${asset}`, (await fetch(siteUrl + 'email-signature/' + asset)).status === 200);
+    }
     const browserPath = process.env.BROWSER_PATH || 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
     const profile = path.join(qa, `profile-${process.pid}`);
     browser = spawn(browserPath, ['--headless=new', '--disable-gpu', '--no-first-run', '--no-default-browser-check', '--disable-background-networking', '--remote-debugging-port=0', `--user-data-dir=${profile}`, 'about:blank'], { windowsHide: true, stdio: 'ignore' });
@@ -75,7 +97,9 @@ const server = http.createServer((req, res) => {
       fs.writeFileSync(path.join(previews, name), Buffer.from(shot.data, 'base64'));
     };
     await send('Page.enable'); await send('Runtime.enable');
-    await viewport(1440); await navigate(origin + '/index.html');
+    await viewport(1440); await navigate(siteUrl);
+    check('Entrada da raiz abre o painel dentro do caminho base', await evaluate(`location.pathname === ${JSON.stringify(basePath + 'email-signature/index.html')}`));
+    check('CSS, scripts e marca do painel carregam dentro do caminho base', await evaluate(`document.styleSheets.length === 2 && [...document.querySelectorAll('script[src], link[rel="stylesheet"], #brand-logo')].every(el => (el.src || el.href).startsWith(${JSON.stringify(siteUrl + 'email-signature/')})) && document.querySelector('#brand-logo').naturalWidth > 0 && getComputedStyle(document.querySelector('.workspace')).display === 'grid'`));
     check('13 opções no seletor e 13 departamentos na lista', await evaluate(`document.querySelectorAll('#department-select option').length === 13 && document.querySelectorAll('.department-button').length === 13`));
     check('Fonte local Quicksand carregada', await evaluate(`document.fonts.check('600 16px Quicksand')`));
     check('Logotipo vertical HTTPS carregou no navegador', await evaluate(`document.querySelector('#signature-preview img').naturalWidth === ${company.logo.originalWidth} && document.querySelector('#signature-preview img').naturalHeight === ${company.logo.originalHeight} && document.querySelector('#logo-status').dataset.state === 'loaded'`));
@@ -94,8 +118,9 @@ const server = http.createServer((req, res) => {
         check(`Layout ${width}px / ${d.id}`, layout.document <= width && layout.previewScroll <= layout.previewWidth + 1 && layout.email === d.email && layout.selected === 1 && layout.broken === 0, layout);
       }
     }
-    await viewport(390); await navigate(origin + '/index.html'); await screenshot('painel-celular.png');
-    await viewport(1440); await navigate(origin + '/index.html#ti');
+    await viewport(390); await navigate(panelUrl); await screenshot('painel-celular.png');
+    await viewport(1440); await navigate(siteUrl + '?origem=pages#ti');
+    check('Redirecionamento preserva parâmetros e fragmento', await evaluate(`location.search === '?origem=pages' && location.hash === '#ti'`));
     check('Link direto seleciona Tecnologia da Informação', await evaluate(`document.querySelector('#preview-title').textContent === 'Tecnologia da Informação'`));
     await evaluate(`document.querySelector('[data-department="recepcao"]').click()`);
     check('Clique na lista atualiza a conta', await evaluate(`document.querySelector('#selected-email').textContent === 'recepcao@medimagem.med.br'`));
@@ -123,32 +148,45 @@ const server = http.createServer((req, res) => {
     check('Falha de todas as APIs oferece seleção manual funcional', await evaluate(`!document.querySelector('#manual-help').hidden && window.getSelection().toString().includes('recepcao@medimagem.med.br')`));
     await evaluate(`document.querySelector('#select-manual').click()`);
     check('Seleção manual exclui instruções e texto da mensagem', await evaluate(`!window.getSelection().toString().includes('Cópia manual') && !window.getSelection().toString().includes('Atenciosamente')`));
-    await navigate(origin + '/index.html');
+    await navigate(panelUrl);
     // A real HTTP 404 makes failure deterministic, independent of DNS timeouts.
-    await evaluate(`window.MedInstitution.logo.url = ${JSON.stringify(origin + '/missing-logo.png')}; document.querySelector('#department-select').dispatchEvent(new Event('change'));`); await delay(400);
+    await evaluate(`window.MedInstitution.logo.url = ${JSON.stringify(siteUrl + 'missing-logo.png')}; document.querySelector('#department-select').dispatchEvent(new Event('change'));`); await delay(400);
     check('Imagem indisponível é sinalizada sem substituição local silenciosa', await evaluate(`!document.querySelector('#logo-warning').hidden && document.querySelector('#logo-status').dataset.state === 'error'`));
     await evaluate(`window.MedInstitution.logo.url = ${JSON.stringify(company.logo.url)}; document.querySelector('#retry-logo').click();`); await delay(250);
     check('Reverificação restaura status de imagem carregada', await evaluate(`document.querySelector('#logo-warning').hidden && document.querySelector('#logo-status').dataset.state === 'loaded'`));
-    await navigate(pathToFileURL(path.join(root, 'index.html')).href);
+    await send('Emulation.setScriptExecutionDisabled', { value: true });
+    await send('Page.navigate', { url: siteUrl });
+    let fallbackUrl;
+    for (let attempt = 0; attempt < 100; attempt++) {
+      await delay(100);
+      fallbackUrl = (await send('Page.getFrameTree')).frameTree.frame.url;
+      if (fallbackUrl === panelUrl) break;
+    }
+    check('Sem JavaScript, entrada HTML redireciona para o painel', fallbackUrl === panelUrl, fallbackUrl);
+    await send('Emulation.setScriptExecutionDisabled', { value: false });
+    await navigate(pathToFileURL(path.join(repository, 'index.html')).href);
+    check('Entrada da raiz também abre o painel por file://', await evaluate(`location.href.startsWith(${JSON.stringify(pathToFileURL(path.join(root, 'index.html')).href)})`));
     check('Painel abre diretamente por file://', await evaluate(`document.querySelectorAll('.department-button').length === 13 && document.querySelector('#signature-preview a[href^="mailto:"]').textContent === 'agendamento@medimagem.med.br'`));
     await evaluate(`document.querySelector('#manual-copy').click()`);
     check('Seleção manual funciona também por file://', await evaluate(`window.getSelection().toString().includes('agendamento@medimagem.med.br')`));
     for (const width of [320, 560, 800]) {
       await viewport(width);
       for (const d of departments) {
-        await navigate(origin + `/assinaturas/assinatura-${d.id}.html`);
+        await navigate(siteUrl + `email-signature/assinaturas/assinatura-${d.id}.html`);
         check(`HTML final ${width}px / ${d.id}`, await evaluate(`document.documentElement.scrollWidth <= innerWidth && [...document.images].every(img => img.naturalWidth > 0) && !document.querySelector('script,style,link') && getComputedStyle(document.querySelector('table')).fontFamily.includes('Arial')`));
       }
     }
+    check('Nenhum recurso local ausente ou fora do caminho base', missingResources.length === 0, missingResources);
     check('Sem exceções JavaScript', errors.length === 0, errors);
     await send('Browser.close').catch(() => {});
   } catch (error) { check('Execução completa dos testes de navegador', false, error.stack); }
   finally {
     if (socket) socket.close();
     if (browser && browser.exitCode === null) browser.kill();
+    server.closeAllConnections();
     server.close();
     const failures = checks.filter(item => !item.passed);
-    const report = { checkedAt: new Date().toISOString(), browser: 'Chrome headless', gmailTested: false, outlookTested: false, passed: checks.length - failures.length, failed: failures.length, failures, checks, layouts };
+    const report = { checkedAt: new Date().toISOString(), browser: 'Chrome headless', basePath, gmailTested: false, outlookTested: false, passed: checks.length - failures.length, failed: failures.length, failures, checks, layouts };
     fs.writeFileSync(path.join(root, 'docs', 'browser-validation.json'), JSON.stringify(report, null, 2) + '\n');
     console.log(`${report.passed} verificações de navegador aprovadas; ${report.failed} falhas.`);
     for (const failure of failures) console.log(failure.name, failure.details || '');

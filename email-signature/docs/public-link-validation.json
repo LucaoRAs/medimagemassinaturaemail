@@ -1,5 +1,5 @@
 {
-    "checkedAt":  "2026-10-30T15:32:25.6081995Z",
+    "checkedAt":  "2026-10-30T18:01:34.5310483Z",
     "mode":  "GET publico, sem autenticacao e sem envio de mensagens",
     "results":  [
                     {
@@ -32,7 +32,7 @@
                         "url":  "https://wa.me/5535997226479",
                         "status":  200,
                         "contentType":  "text/html; charset=\"utf-8\"",
-                        "bytes":  228979,
+                        "bytes":  227437,
                         "finalUrl":  "https://api.whatsapp.com/send/?phone=5535997226479\u0026text\u0026type=phone_number\u0026app_absent=0"
                     },
                     {
@@ -40,7 +40,7 @@
                         "url":  "https://wa.me/5535999212077",
                         "status":  200,
                         "contentType":  "text/html; charset=\"utf-8\"",
-                        "bytes":  229018,
+                        "bytes":  227407,
                         "finalUrl":  "https://api.whatsapp.com/send/?phone=5535999212077\u0026text\u0026type=phone_number\u0026app_absent=0"
                     },
                     {

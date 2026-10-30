@@ -4,6 +4,8 @@ Painel local com 13 assinaturas por departamento, prévia, cópia formatada e do
 
 ## Abrir e usar
 
+O painel também pode ser acessado em <https://lucaoras.github.io/medimagemassinaturaemail/> após a publicação. O `index.html` da raiz do repositório redireciona para este painel, preservando sua estrutura e os links diretos por departamento. Configuração e validação do GitHub Pages: [README da raiz](../README.md).
+
 1. Abra **`index.html`** com Chrome, Edge, Firefox ou Safari. Não é necessário instalar pacotes, iniciar servidor ou acessar uma conta para abrir o painel.
 2. Selecione seu departamento na lista ou no seletor do celular.
 3. Confira o e-mail e a mensagem **“Logo e ícones carregados”**.

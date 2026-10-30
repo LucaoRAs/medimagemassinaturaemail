@@ -1,6 +1,18 @@
 # Validação executada
 
-Data: **30/10/2026**, horário de Brasília. Resultado final: **147 verificações estáticas e 147 verificações no Chrome aprovadas; zero falhas**. As dez URLs públicas conferidas responderam com HTTP 200.
+Data: **30/10/2026**, horário de Brasília. Resultado final: **147 verificações estáticas e 161 verificações no Chrome aprovadas; zero falhas**. As dez URLs públicas conferidas responderam com HTTP 200.
+
+## Correção do GitHub Pages
+
+- Antes da correção, a consulta pública a `https://lucaoras.github.io/medimagemassinaturaemail/` retornou **HTTP 404**; o painel em `email-signature/index.html` retornou **HTTP 200**. Não existia arquivo de entrada na raiz do repositório.
+- Criado `index.html` na raiz com redirecionamento relativo para o painel existente. Parâmetros e fragmentos de departamento foram preservados no redirecionamento JavaScript; o fallback por HTML foi validado com JavaScript desativado.
+- Criado `.nojekyll` vazio para publicar os arquivos estáticos diretamente. A origem informada, **Deploy from a branch → main → /(root)**, pode ser mantida, sem workflow personalizado.
+- O servidor de teste publica a raiz exclusivamente sob **`/medimagemassinaturaemail/`**, com correspondência exata de maiúsculas e minúsculas. CSS, JavaScript, fonte e imagens locais carregaram sem referências ausentes ou requisições fora desse caminho. O 404 intencional do teste de falha de imagem é contabilizado separadamente.
+- A entrada da raiz respondeu HTTP 200 localmente e abriu o painel por HTTP e por `file://`. O link `?origem=pages#ti` selecionou Tecnologia da Informação corretamente.
+- Mantidas todas as verificações de departamentos, layouts, cópia, colagem, seleção manual e download. As quatro capturas regeneradas foram **idênticas byte a byte** às anteriores à correção.
+- Os HTMLs das assinaturas, o painel, seus estilos, configurações, template e imagens permaneceram intactos. As pastas `Laboratório` e `Med&Imagem` não foram alteradas.
+
+As verificações acima validam os arquivos locais corrigidos. **Commit, push para `main` e conclusão do deploy do GitHub Pages ainda são necessários** para que a correção apareça no endereço público. Não foi feita alteração remota de configuração nem publicação nesta etapa. Instruções: [README da raiz](../../README.md).
 
 ## Geração e HTML final
 
@@ -18,7 +30,7 @@ Relatório reproduzível: [static-validation.json](static-validation.json).
 
 ## Navegador e interações
 
-Chrome headless em perfil isolado, com servidor local temporário e também com abertura direta via `file://`.
+Chrome headless em perfil isolado, com servidor local temporário sob `/medimagemassinaturaemail/` e também com abertura direta via `file://`.
 
 - **91 combinações**: 13 departamentos × 320, 360, 390, 768, 1024, 1440 e 1920 px. Sem rolagem horizontal da página ou da prévia, com seleção e e-mail correspondentes.
 - **39 combinações dos HTMLs finais**: 13 arquivos × 320, 560 e 800 px. Sem transbordamento horizontal; fonte de sistema e logo carregados.

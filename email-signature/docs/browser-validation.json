@@ -1,12 +1,53 @@
 {
-  "checkedAt": "2026-10-30T15:31:57.851Z",
+  "checkedAt": "2026-10-30T18:01:28.252Z",
   "browser": "Chrome headless",
+  "basePath": "/medimagemassinaturaemail/",
   "gmailTested": false,
   "outlookTested": false,
-  "passed": 147,
+  "passed": 161,
   "failed": 0,
   "failures": [],
   "checks": [
+    {
+      "name": "Publicação estática possui .nojekyll na raiz",
+      "passed": true
+    },
+    {
+      "name": "Entrada da raiz responde HTTP 200 sob o caminho base",
+      "passed": true
+    },
+    {
+      "name": "Recurso local publicado: assets/logo-medimagem.png",
+      "passed": true
+    },
+    {
+      "name": "Recurso local publicado: assets/logo-medimagem-vertical-hd.png",
+      "passed": true
+    },
+    {
+      "name": "Recurso local publicado: assets/icons/email.png",
+      "passed": true
+    },
+    {
+      "name": "Recurso local publicado: assets/icons/phone.png",
+      "passed": true
+    },
+    {
+      "name": "Recurso local publicado: assets/icons/chat.png",
+      "passed": true
+    },
+    {
+      "name": "Recurso local publicado: assets/icons/website.png",
+      "passed": true
+    },
+    {
+      "name": "Entrada da raiz abre o painel dentro do caminho base",
+      "passed": true
+    },
+    {
+      "name": "CSS, scripts e marca do painel carregam dentro do caminho base",
+      "passed": true
+    },
     {
       "name": "13 opções no seletor e 13 departamentos na lista",
       "passed": true
@@ -1298,6 +1339,10 @@
       }
     },
     {
+      "name": "Redirecionamento preserva parâmetros e fragmento",
+      "passed": true
+    },
+    {
       "name": "Link direto seleciona Tecnologia da Informação",
       "passed": true
     },
@@ -1335,6 +1380,15 @@
     },
     {
       "name": "Reverificação restaura status de imagem carregada",
+      "passed": true
+    },
+    {
+      "name": "Sem JavaScript, entrada HTML redireciona para o painel",
+      "passed": true,
+      "details": "http://127.0.0.1:54187/medimagemassinaturaemail/email-signature/index.html"
+    },
+    {
+      "name": "Entrada da raiz também abre o painel por file://",
       "passed": true
     },
     {
@@ -1500,6 +1554,11 @@
     {
       "name": "HTML final 800px / tomografia",
       "passed": true
+    },
+    {
+      "name": "Nenhum recurso local ausente ou fora do caminho base",
+      "passed": true,
+      "details": []
     },
     {
       "name": "Sem exceções JavaScript",
